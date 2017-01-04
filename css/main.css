@@ -14,7 +14,9 @@ I've left some boilerplate below for you.
 
 body {}
 
-article {}
+article {
+    width: 800px;
+}
 
 h1 {}
 
