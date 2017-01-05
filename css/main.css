@@ -12,6 +12,7 @@ I've left some boilerplate below for you.
 
 */
 
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 body {}
 
 article {
@@ -22,4 +23,8 @@ h1 {}
 
 img {
     max-width: 100%;
+}
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
 }
